@@ -4,7 +4,7 @@ var t = 0;
 var h = 0;
 
 var indicatorTemperature = drawIndicator("°C", document.getElementById("indicatorTemperature"));
-drawAreaChart(data, document.querySelector(".card1").clientWidth, 300, "°C", ["#ca269f", "#fe4e35", "rgba(0, 0, 0, 0)"], document.getElementById("graphTemperature"));
+drawAreaChart(dataT, document.querySelector(".card1").clientWidth, 300, "°C", ["#ca269f", "#fe4e35", "rgba(0, 0, 0, 0)"], document.getElementById("graphTemperature"));
 var indicatorHumidity = drawIndicator("%", document.getElementById("indicatorHumidity"));
 drawAreaChart(dataH, document.querySelector(".card2").clientWidth, 300, "%", ["#0056ff", "#6341fa", "rgba(0, 0, 0, 0)"], document.getElementById("graphHumidity"));
 
